@@ -2,7 +2,7 @@ spring:
   application:
     name: user-manage-dev
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/user-manage-dev
     username: root
     password: 123456
